@@ -11,7 +11,7 @@ class Carthage < Formula
   depends_on :xcode => ["10.2", :build]
 
   bottle do
-    root_url "https://dl.bintray.com/nsoperations/bottles-formulas"
+    root_url "https://s3.che01.cloud-object-storage.appdomain.cloud/carthage-cache/"
     cellar :any_skip_relocation
     sha256 "ff88e7f289576f70ad6f4eabc3208e72e6e59b22e71622f8d407e9d45af475e0" => :mojave
   end
