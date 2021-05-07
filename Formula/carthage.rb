@@ -13,7 +13,7 @@ class Carthage < Formula
   bottle do
     root_url "https://s3.che01.cloud-object-storage.appdomain.cloud/carthage-cache"
     cellar :any_skip_relocation
-    sha256 "ff88e7f289576f70ad6f4eabc3208e72e6e59b22e71622f8d407e9d45af475e0" => :mojave
+    sha256 "4929cef9e2322bb207c0d0add8543a1f4332ccdbaef75353a8a99b8d3589a772" => :mojave
   end
 
   def install
